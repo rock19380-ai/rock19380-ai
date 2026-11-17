@@ -2,6 +2,11 @@
 
 **Rust Backend & Systems Engineer**
 
+**Available for remote contract work:** Backend diagnostics, scoped paid fixes, and monthly maintenance for Telegram bots, Mini Apps, and crypto application backends. Written-first, asynchronous collaboration.
+
+**[Backend Maintenance Services — scope, packages & engagement process](BACKEND_MAINTENANCE.md)**
+
+
 I build production-oriented backend and systems software in Rust, with a focus on payment infrastructure, distributed state, Solana, AI-agent infrastructure, protocol boundaries, and failure-safe execution.
 
 ## Engineering focus
