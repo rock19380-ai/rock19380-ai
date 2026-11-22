@@ -1,51 +1,49 @@
-# Mu Abbaas
+# Abbaas
 
-**Rust Backend & Systems Engineer**
+**Backend & Full-Stack Software Engineer | Rust · Python · PHP · TypeScript/JavaScript**
 
-**Available for remote contract work:** Backend diagnostics, scoped paid fixes, and monthly maintenance for Telegram bots, Mini Apps, and crypto application backends. Written-first, asynchronous collaboration.
+I build, debug, and maintain backend services, web applications, automation, AI integrations, and payment-related systems. **Rust is my current specialization, not my only language.** I also work with Python, PHP, TypeScript/JavaScript, Node.js, React/Next.js, PostgreSQL, and other frameworks as required by the codebase.
 
-**[Backend Maintenance Services — scope, packages & engagement process](BACKEND_MAINTENANCE.md)**
+**Available for paid remote contracts:** small bug fixes, API integrations, Telegram bot and Mini App backends, database issues, deployments, and ongoing maintenance. I work asynchronously and communicate primarily in written English.
 
+**Contact:** [Telegram @Muabbaas](https://t.me/Muabbaas) · [Backend maintenance services, scope & pricing](BACKEND_MAINTENANCE.md)
 
-I build production-oriented backend and systems software in Rust, with a focus on payment infrastructure, distributed state, Solana, AI-agent infrastructure, protocol boundaries, and failure-safe execution.
+## What I can help with
 
-## Engineering focus
+- **Existing backends:** debugging, tests, code review, reliability, structured errors, timeouts and retries
+- **Bots & integrations:** Telegram Bot API, webhooks, payment/API integrations, automation and background jobs
+- **Data:** PostgreSQL, SQLx, migrations, transaction correctness, reconciliation and performance
+- **AI applications:** LLM APIs, streaming/SSE, structured output, stateful workflows and provider safeguards
+- **Delivery:** Docker, Linux, CI/CD, deployment diagnostics and reproducible verification
+- **Systems & Web3:** Rust/Axum/Tokio, Solana integration, authorization boundaries, idempotency and replay protection
 
-- Rust, Tokio, Axum
-- PostgreSQL, SQLx
-- Solana and non-custodial payment workflows
-- Distributed state, idempotency, replay protection, reconciliation
-- AI-agent architecture, deterministic authority, privacy boundaries
-- MCP, x402, MPP
-- Testing, CI, threat modeling, operational reliability
+The right implementation language depends on the project; I do not restrict my work to Rust.
 
-## Selected work
+## Selected engineering work
 
-### [Rust Agent Commerce Kit (RACK)](https://github.com/rock19380-ai/rack-engineering)
-Production-oriented commerce infrastructure for paid MCP tools and machine-facing APIs. The private implementation covers protocol-neutral commerce authority, x402/MPP payment lifecycles, replay/idempotency, fenced execution, durable results, reconciliation, and operational observability. The public repository contains disclosure-reviewed architecture material and independently written engineering examples.
+### [Rust Agent Commerce Kit — RACK](https://github.com/rock19380-ai/rack-engineering)
+Private implementation of payment and authorization infrastructure for machine-facing APIs and agent commerce. Key engineering challenges include **concurrent operations, replay/idempotency, authorization, durable execution, partial failures, reconciliation, and reproducible adversarial tests**. Substantial development and qualification work is ongoing; **final production qualification is not claimed**. The linked public repository contains curated architecture and safe engineering examples, **not** the private implementation.
+
+### [TWIN](https://github.com/rock19380-ai/twin-engineering)
+An AI-backed, stateful digital-twin system in active private development, with deterministic authorization boundaries, context/privacy separation, persistent workflows, and transaction-safe state transitions. Recent private work includes **mock-based reservation/settlement qualification**; **live-money or production acceptance is not claimed**. The public showcase documents selected concepts rather than the current full private source.
 
 ### [Basalt](https://github.com/rock19380-ai/basalt-engineering)
-Solana-first, non-custodial stablecoin payment-operations infrastructure for invoice verification, signed webhooks, organization/RBAC workflows, approval-gated payouts, batch payout reconciliation, audit records, and operational tooling without server custody of customer private keys.
+A non-custodial Solana payment-operations architecture for invoice/payment verification, signed webhooks, role-separated approvals, payout workflows, and reconciliation. Public material is a disclosure-reviewed engineering showcase; the implementation is private.
 
-### [Twin](https://github.com/rock19380-ai/twin-engineering)
-A user-controlled digital-twin system built around persistent identity, user modeling, memory, context isolation, judgment learning, privacy filtering, and deterministic authority boundaries around model-proposed actions. The AI model is a replaceable reasoning component, not the authority layer.
+### [NeuRust — public source](https://github.com/rock19380-ai/neurust-workspace)
+An experimental Rust AI developer-agent workspace with CLI, Axum services, PostgreSQL/SQLx, OpenRouter/LLM integration, SSE, bounded project context and Solana tooling. **The public repository contains code**, with explicit experimental and non-production limitations.
 
-### [NeuRust](https://github.com/rock19380-ai/neurust-workspace)
-Public Rust AI developer-agent experiment with a Rust CLI, Axum backend, PostgreSQL/SQLx persistence, OpenRouter integration, bounded project memory/context, and Solana-oriented tooling.
+### [Axum AI Starter — public engineering example](https://github.com/rock19380-ai/axum-ai-starter-showcase)
+A smaller, runnable streaming-API showcase covering Axum/Tokio, typed errors, timeouts, request IDs, SSE and endpoint tests. The separate commercial source remains private.
 
-### [Axum AI Starter](https://github.com/rock19380-ai/axum-ai-starter-showcase)
-A production-minded Rust foundation for streaming AI applications, covering typed errors, bounded retries, SSE, persistence, request tracing, cancellation, testing, and containerized local development. The public showcase is deliberately separated from the commercial source.
+### [MWA Lab — public source](https://github.com/rock19380-ai/mwa-lab)
+A Kotlin/Jetpack Compose project exploring Solana Mobile Wallet Adapter debugging and devnet-oriented workflows.
 
-## Public engineering repositories
+## How I work
 
-| Repository | Public evidence |
-|---|---|
-| [RACK Engineering](https://github.com/rock19380-ai/rack-engineering) | machine-commerce lifecycle, exact money, replay/idempotency, execution and reconciliation |
-| [Basalt Engineering](https://github.com/rock19380-ai/basalt-engineering) | non-custodial payment operations, approval separation and payout lifecycle |
-| [Twin Engineering](https://github.com/rock19380-ai/twin-engineering) | deterministic authority, action lifecycle, privacy/context boundaries |
-| [NeuRust](https://github.com/rock19380-ai/neurust-workspace) | full public Rust/Axum/PostgreSQL/Next.js project |
-| [Axum AI Starter Showcase](https://github.com/rock19380-ai/axum-ai-starter-showcase) | streaming API and backend reliability patterns |
+- Agree on the problem, authorized access, deliverables, payment and acceptance criteria **before** starting.
+- Prefer a **small paid milestone** for unfamiliar codebases, followed by a larger scope or monthly maintenance if useful.
+- Make focused changes with tests, clear Git history, verification evidence and concise written handover.
+- For private projects, I share scoped, safe public evidence first. Full commercial source is **not** publicly available or provided by default.
 
-## Public/private boundary
-
-Some production and commercial repositories remain private. Public showcase repositories are curated separately so recruiters and collaborators can review architecture, engineering decisions, tests, and selected safe examples without exposing private implementation history, credentials, or commercial IP.
+**Have a small bug or integration task?** Send the technology stack, issue, expected outcome and budget to [@Muabbaas](https://t.me/Muabbaas). BTC/USDT payment can be discussed for direct engagements.
